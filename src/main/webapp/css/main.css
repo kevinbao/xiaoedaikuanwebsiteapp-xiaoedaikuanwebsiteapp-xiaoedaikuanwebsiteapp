@@ -269,6 +269,7 @@ body{
 }
 .sub-panel-heading{
     background-image:url('../images/subTitleBg.gif');
+    background-position:center bottom;
     font-size:10px;
     padding-left:15px;
 }
@@ -292,4 +293,27 @@ body{
     background-color:#9bd0de;
     margin:10px 0px;
     color:#FFFFFF;
+}
+.condition{
+    margin-bottom:15px;
+}
+.condition ul{
+    margin:2px 30px;
+    padding:8px;
+    list-style:none;
+    border-bottom:1px dashed #e9e9e9;
+}
+.condition ul li{
+    display:inline-block;
+    margin-right:20px;
+    color:#2c90cc;
+}
+.condition ul li:first-child{
+    width:130px;
+    font-weight:bold;
+    color:#000000;
+}
+.sub-panel-heading select{
+    height:25px;
+    border:1px solid #e9e9e9;
 }
