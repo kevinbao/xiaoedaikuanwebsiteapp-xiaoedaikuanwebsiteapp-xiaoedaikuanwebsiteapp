@@ -114,6 +114,13 @@ body{
 .table tfoot>tr>td{
     border-top:none;
     border-bottom:1px solid #ddd;
+    font-size:12px;
+}
+.table tbody>tr>td:first-child{
+    text-align:center;
+}
+.table tbody>tr>td:last-child{
+    text-align:center;
 }
 .grid_4>.panel-default>.panel-heading{
     background-color:#e9f1f4;
