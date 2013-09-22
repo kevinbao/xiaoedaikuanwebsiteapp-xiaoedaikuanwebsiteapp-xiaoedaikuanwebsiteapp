@@ -2,6 +2,7 @@ body{
     background-image:url("../images/bg.png");
     padding-top:5px;
     font-family:'微软雅黑';
+    font-size:12px;
 }
 .topRightMenu{
     font-size:12px;
@@ -40,11 +41,11 @@ body{
     font-size:13px;
 }
 .well{
-    filter: alpha(opacity=90);
-    -moz-opacity:0.9;
-    opacity: 0.9;
-    border-color:#999999;
-    background-color:#666666;
+    filter: alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity: 0.8;
+    border-color:#5b7388;
+    background-color:#5b7388;
     color:#FFFFFF;
 }
 .mainform label, .mainform select{
@@ -292,9 +293,7 @@ body{
     vertical-align:middle;
     margin-top:17px;
 }
-.form-control{
-    margin:10px 0px;
-}
+
 .sitebtn{
     width:100px; 
     background-color:#9bd0de;
@@ -323,4 +322,54 @@ body{
 .sub-panel-heading select{
     height:25px;
     border:1px solid #e9e9e9;
+}
+.smallList{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    font-size:12px;
+    line-height:23px;
+}
+.smallList li{
+    background-image:url('../images/listDot.gif');
+    background-position:0px 9px;;
+    background-repeat:no-repeat;
+    padding-left:12px;
+}
+.footerList{
+    list-style:none;
+    padding:0px;
+    padding-left:35px;
+    font-size:12px;
+    line-height:23px;
+    margin:15px 0px;
+}
+.grid_2>.footerList>li:first-child{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:6px;
+}
+.carousel>.carousel-control.right{
+    background-image:none;
+    background:none;
+}
+.grid_6>.well>.grid_1>h5{
+    font-size:14px;
+}
+.proControls{
+    margin:5px 0px;
+}
+table.productTable tr td{
+    text-align:left;
+}
+table.productTable tr td.proTitle{
+    text-align:left;
+    border:none;
+}
+.wendaBg{
+    background-image:url("../images/bg.png");
+    padding-top:20px;
+}
+.wendaSearch{
+    padding-bottom:8px;
 }
