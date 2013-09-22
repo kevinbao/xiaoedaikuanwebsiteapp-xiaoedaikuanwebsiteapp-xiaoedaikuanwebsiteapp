@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>首页</title>
+        <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/combo.js"></script>
+    </head>
+    <body>
+        <div class="container_12">
+            <div class="grid_2" style="padding-top:18px">
+                <img src="images/logoSmall.gif"/>
+            </div>
+          <!-- end .grid_2 -->
+          <div class="container_10">
+              <div class="grid_2" style="padding-top:30px; padding-left:30px">
+                  <div class="cityChange" style="display:inline;font-size:13px;padding-left:8px">北京市</div>
+                  <div class="dropdown" style="display:inline">
+                      <a data-toggle="dropdown" href="#" style="font-size:10px">[切换城市]</a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="width:420px;height:560px;padding:10px;">
+                        <div id="TabAreaList" class="ui-tab-content-item current">
+                            <div class="city-list-item wrap-clear" data-css-hover="city-list-item-hover">
+                                <span class="label">华北东北</span>
+                                <div class="citys">
+                                    <a href="#"><span class="doc-text-b">北京</span></a>
+                                    <a href="#"><span class="doc-text-b">天津</span></a>
+                                    <a href="#"><span class="">沈阳</span></a>
+                                    <a href="#"><span class="">大连</span></a>
+                                    <a href="#"><span class="doc-color-tail">枣庄</span></a>
+                                    <a href="#"><span class="">石家庄</span></a>
+                                    <a href="#"><span class="">保定</span></a>
+                                    <a href="#"><span class="">廊坊</span></a>
+                                    <a href="#"><span class="">唐山</span></a>
+                                    <a href="#"><span class="">呼和浩特</span></a>
+                                    <a href="#"><span class="">包头</span></a>
+                                    <a href="#"><span class="">鄂尔多斯</span></a>
+                                    <a href="#"><span class="">鞍山</span></a>
+                                    <a href="#"><span class="">长春</span></a>
+                                    <a href="#"><span class="">哈尔滨</span></a>
+                                    <a href="#"><span class="">郑州</span></a>
+                                    <a href="#"><span class="">洛阳</span></a>
+                               </div>
+                            </div>
+                            <div class="city-list-item wrap-clear" data-css-hover="city-list-item-hover">
+                                <span class="label">华东地区</span>
+                                <div class="citys">
+                                    <a href="#"><span class="doc-text-b">上海</span></a>
+                                    <a href="#"><span class="doc-text-b">南京</span></a>
+                                    <a href="#"><span class="">苏州</span></a>
+                                    <a href="#"><span class="">无锡</span></a>
+                                    <a href="#"><span class="">济南</span></a>
+                                    <a href="#"><span class="">青岛</span></a>
+                                    <a href="#"><span class="">烟台</span></a>
+                                    <a href="#"><span class="">常州</span></a>
+                                    <a href="#"><span class="">南通</span></a>
+                                    <a href="#"><span class="">潍坊</span></a>
+                                    <a href="#"><span class="">淄博</span></a>
+                                    <a href="#"><span class="doc-text-b">杭州</span></a>
+                                    <a href="#"><span class="">宁波</span></a>
+                                    <a href="#"><span class="">温州</span></a>
+                                    <a href="#"><span class="">徐州</span></a>
+                                    <a href="#"><span class="doc-color-tail">盐城</span></a>
+                                    <a href="#"><span class="">扬州</span></a>
+                                    <a href="#"><span class="">镇江</span></a>
+                                    <a href="#"><span class="">泰州</span></a>
+                                    <a href="#"><span class="doc-color-tail">济宁</span></a>
+                                    <a href="#"><span class="">威海</span></a>
+                                    <a href="#"><span class="">临沂</span></a>
+                                    <a href="#"><span class="">嘉兴</span></a>
+                                    <a href="#"><span class="">绍兴</span></a>
+                                    <a href="#"><span class="doc-color-tail">金华</span></a>
+                                    <a href="#"><span class="">台州</span></a>
+                                    <a href="#"><span class="">合肥</span></a>
+                                </div>
+                            </div>
+                            <div class="city-list-item wrap-clear" data-css-hover="city-list-item-hover">
+                                <span class="label">华南地区</span>
+                                <div class="citys">
+                                    <a href="#"><span class="doc-text-b">深圳</span></a>
+                                    <a href="#"><span class="doc-text-b">广州</span></a>
+                                    <a href="#"><span class="">佛山</span></a>
+                                    <a href="#"><span class="">珠海</span></a>
+                                    <a href="#"><span class="">惠州</span></a>
+                                    <a href="#"><span class="">东莞</span></a>
+                                    <a href="#"><span class="">中山</span></a>
+                                    <a href="#"><span class="">厦门</span></a>
+                                    <a href="#"><span class="">长沙</span></a>
+                                    <a href="#"><span class="">福州</span></a>
+                                    <a href="#"><span class="">泉州</span></a>
+                                    <a href="#"><span class="doc-text-b">武汉</span></a>
+                                    <a href="#"><span class="">江门</span></a>
+                                    <a href="#"><span class="">芜湖</span></a>
+                                    <a href="#"><span class="">马鞍山</span></a>
+                                    <a href="#"><span class="">漳州</span></a>
+                                    <a href="#"><span class="">南昌</span></a>
+                                    <a href="#"><span class="">九江</span></a>
+                                    <a href="#"><span class="">赣州</span></a>
+                                    <a href="#"><span class="">宜昌</span></a>
+                                    <a href="#"><span class="">襄樊</span></a>
+                                    <a href="#"><span class="doc-color-tail">荆州</span></a>
+                                    <a href="#"><span class="">株洲</span></a>
+                                    <a href="#"><span class="">湘潭</span></a>
+                                    <a href="#"><span class="">衡阳</span></a>
+                                    <a href="#"><span class="">南宁</span></a>
+                                    <a href="#"><span class="">柳州</span></a>
+                                    <a href="#"><span class="">海口</span></a>
+                                </div>
+                            </div>
+                            <div class="city-list-item wrap-clear" data-css-hover="city-list-item-hover">
+                                <span class="label">其他地区</span>
+                                <div class="citys">
+                                    <a href="#"><span class="doc-text-b">重庆</span></a>
+                                    <a href="#"><span class="doc-text-b">成都</span></a>
+                                    <a href="#"><span class="doc-text-b">西安</span></a>
+                                    <a href="#"><span class="">绵阳</span></a>
+                                    <a href="#"><span class="">太原</span></a>
+                                    <a href="#"><span class="">贵阳</span></a>
+                                    <a href="#"><span class="">昆明</span></a>
+                                    <a href="#"><span class="">宝鸡</span></a>
+                                    <a href="#"><span class="">兰州</span></a>
+                                    <a href="#"><span class="">乌鲁木齐</span></a>
+                                </div>
+                            </div>
+                        </div>
+                      </ul>
+                    </div>
+              </div>
+              <div class="grid_8">
+                <ul class="topRightMenuBottomSmall">
+                    <li>注册&nbsp;&nbsp;|</li>
+                    <li>登录&nbsp;&nbsp;|</li>
+                    <li>我的会员中心&nbsp;&nbsp;|</li>
+                    <li>反馈</li>
+                </ul>
+            </div>
+              <div class="grid_8">
+                <ul class="topRightMenuBottom">
+                    <li class="home"><a href="index.html"></a></li>
+                    <li class="search"><a class="active" href="product.html"></a></li>
+                    <li class="xinyong"><a href="#"></a></li>
+                    <li class="jinrong"><a href="#"></a></li>
+                    <li class="wenda"><a href="#"></a></li>
+                    <li class="gonglue"><a href="#"></a></li>
+                </ul>
+              </div>
+          </div>
+        </div>   
+        <div class="clear" style="height:0px"></div>
+        
+        <div class="productBg">
+        <div class="container_12" style="margin-top:0px">
+        <div class="grid_12">
+                <div class="panel panel-default">
+                <div class="panel-heading"><img src="images/pcm_1.gif"/></div>
+                    <div class="panel-body" style="padding:0px;">
+                        <div class="grid_4">
+                            <div class="grid_1 labeFor">职业身份:</div>
+                            <div class="grid_2">
+                                <select class="form-control grid_2">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                            </div>
+                            <div class="grid_1 labeFor">贷款用途:</div>
+                            <div class="grid_2">
+                                <select class="form-control grid_2">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid_4">
+                            <div class="grid_1 labeFor">贷款金额:</div>
+                            <div class="grid_2">
+                                <select class="form-control grid_2">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                            </div>
+                            <div class="grid_1 labeFor">贷款期限:</div>
+                            <div class="grid_2">
+                                <select class="form-control grid_2">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid_3"><button type="button" class="btn sitebtn" style="border:none">重新搜索</button></div>
+                    </div>
+                    <div class="panel-heading sub-panel-heading">
+                        为您找到<span style="color:#f77900">12</span>个贷款产品，请根据您的条件进行筛选</div>
+                    <div class="panel-body condition" style="padding:0px;">
+                        <ul style="border-bottom:3px solid #e9e9e9">
+                            <li>已选条件:</li>
+                            <li>两年内信用情况：无信用记录</li>
+                        </ul>
+                        <ul>
+                            <li>职业身份:</li>
+                            <li>企业主</li>
+                            <li>个体户</li>
+                            <li>上班族</li>
+                            <li>无固定职业</li>
+                        </ul>
+                        <ul>
+                            <li>是否有本地商品房:</li>
+                            <li>无房</li>
+                            <li>本人名下有</li>
+                            <li>父母配偶名下有</li>
+                            <li>有自建房</li>
+                        </ul>
+                        <ul>
+                            <li>是否有车辆:</li>
+                            <li>无车</li>
+                            <li>名下有车</li>
+                            <li>有车但已被抵押</li>
+                        </ul>
+                    </div>
+                    <div style="height:6px;display:block;line-height:0px;background-color:#afd0e1"></div>
+                    <div class="panel-heading sub-panel-heading">
+                        <select>
+                          <option>选择机构类型</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <select>
+                          <option>选择抵押类型</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <select>
+                          <option>选择还款方式</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                    </div>
+                    <table class="table">
+                        <tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="container_12" style="margin-top:0px">
+        <div class="grid_12">
+                <div class="panel panel-default">
+                  <div class="panel-body" style="padding:0px;">
+                    <img src="images/bank.gif"/>
+                  </div>
+                    </div>
+            </div>
+            </div>
+        <div style="height:1px;line-height:0px;background-color:#e0e0e0;margin-top:20px"></div>
+        <div class="container_12" style="margin-top:10px;margin-bottom:40px;">
+            <div class="grid_12" style="text-align:center">
+                <img src="images/bottom_logo.gif"/>
+                <p>版权所有：北京玖富时代投资顾问有限公司 Copyright &copy; 2012<br/>
+                公司总部地址：北京朝阳区麦子店街37号盛福大厦2580<br/>
+                传真：010-85276916 邮编：100000</p>
+                </div>
+            </div>
+    </body>
+</html>
